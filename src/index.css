@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    display: block;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+.container {
+    width: 1263px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.title {
+    height: 60px;
+    width: 1000px;
+    margin: 0 auto;
+    overflow: visible;
+    z-index: 1;
+}
+
+.title .logo {
+    width: 109px;
+    height: 60px;
+    float: left;
+    margin-right: 60px;
+    display: inline-block;
+}
+
+.title .logo img {
+    margin-top: 10px;
+}
+
+.title .tab .shouye {
+    color: #35b558;
+    text-decoration: none;
+}
+
+.title .tab ul {
+    text-align: center;
+    z-index: 1;
+}
+
+.title .tab li {
+    height: 60px;
+    position: relative;
+    display: inline-block;
+    margin-right: 50px;
+    font-size: 14px;
+    float: left;
+    cursor: pointer;
+    line-height: 60px;
+}
+
+.title .tab .green {
+    font-style: normal;
+}
+
+.tab li:hover .green {
+    color: #35b558;
+}
+
+.tab li .arrow {
+    width: 7px;
+    height: 7px;
+    display: inline-block;
+    border: 1px solid #c1c1c1;
+    border-top: none;
+    border-left: none;
+    -webkit-transform: rotate(45deg);
+}
+
+.tab li:hover .arrow {
+    border-color: #35b558;
+    -webkit-animation: rotate 1s ease;
+    -webkit-transform: rotate(-135deg);
+}
+
+@keyframes rotate {
+    0% {
+        -webkit-transform: rotate(-135deg);
+    }
+    100% {
+        -webkit-transform: rotate(180deg)
+    }
+}
+
+.tab li .xiala-1 {
+    width: 270px;
+    height: 330px;
+    z-index: 1;
+    background-color: #ffffff;
+    position: absolute;
+    top: 60px;
+    left: 1px;
+    line-height: normal;
+    display: none;
+    border-top: 1px solid #dddddd;
+}
+
+
+.body {
+    width: 1263px;
+    height: 3140px;
+    background-color: #f5f5f5;
+    z-index: -1;
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    margin: 0 auto
+}
+
+body .footer {
+    width: 1263px;
+    height: 300px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    z-index: -1;
+}
+
+.body .onlineClass {
+    width: 1000px;
+    height: 200px;
+    margin: 40px auto 0;
+    background-color: #35b558
+}
+
+.body .professionalCourses {
+    width: 1000px;
+    height: 310px;
+    margin: 40px auto 0;
+    background-color: #f8ec47;
+}
+
+.body .excellentProgrammer {
+    width: 1000px;
+    height: 320px;
+    margin: 40px auto 0;
+    background-color: #db65d5
+}
+
+.body .devilProgrammer {
+    width: 1000px;
+    height: 310px;
+    margin: 40px auto 0;
+    background-color: #f70404
+}
+
+.body .careerColleges{
+    width: 1000px;
+    height: 310px;
+    margin: 40px auto 0;
+    background-color: #f8ec47;
+}
+
+.body .vipClass {
+    width: 1000px;
+    height: 420px;
+    margin: 40px auto 0;
+    background-color: #ffffff;
+}
+
+.body .studentStory{
+    width: 1000px;
+    height: 310px;
+    margin: 40px auto 0;
+    background: #f70404
+}
