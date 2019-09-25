@@ -168,7 +168,7 @@ body .footer {
     width: 1000px;
     height: 420px;
     margin: 40px auto 0;
-    background-color: #ffffff;
+    background-color: #9737ce;
 }
 
 .body .studentStory{
@@ -176,4 +176,22 @@ body .footer {
     height: 310px;
     margin: 40px auto 0;
     background: #f70404
+}
+
+.body .cooperativeEnterprise {
+    width: 1000px;
+    height: 310px;
+    margin: 40px auto 0;
+    position: relative;
+    background: #f8ec47
+}
+
+.body .rotationChart{
+    width: 750px;
+    height: 330px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 132px;
+    overflow: hidden;
+    background: #23a744
 }
