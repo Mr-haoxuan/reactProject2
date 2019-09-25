@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import TabBar from "./tabBar";
-import logo from "./images/title/logo.png"
+import logo from "../../images/title/logo.png"
 
 export default class NavBar extends React.Component {
     constructor(props) {
@@ -36,6 +36,11 @@ export default class NavBar extends React.Component {
                 linknames: ["Android工程师", "ios工程师"]
             }
         ];
+        let spinner2 = [
+            {
+                linkname:""
+            }
+        ]
         return (
             <div className="title">
                 {this.Logo()}

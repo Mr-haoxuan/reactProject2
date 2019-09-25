@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import NavBar from "./navBar";
+import NavBar from "./components/head/index";
 import "./index.less"
-import Body from "./body";
-import Footer from "./footer";
+import Body from "./components/body/index";
+import Footer from "./components/foot/index";
 
 class Index extends React.Component {
     constructor(props) {
