@@ -1,7 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import TabBar from "./tabBar";
+import TabBar from "./component/tabBar";
 import logo from "../../images/title/logo.png"
+import "./index.less"
 
 export default class NavBar extends React.Component {
     constructor(props) {

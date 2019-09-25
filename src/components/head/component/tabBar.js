@@ -1,4 +1,5 @@
 import React from "react";
+import "./styles/tabBar.less"
 
 export default class TabBar extends React.Component {
     constructor(props) {
