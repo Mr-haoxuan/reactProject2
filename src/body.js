@@ -16,7 +16,6 @@ export default class Body extends React.Component {
     }
     render() {
         return <div className="body">
-            这是body部分
             <RotationChart/>
             <OnlineEmploymentClass />
             <ProfessionalCourses />
