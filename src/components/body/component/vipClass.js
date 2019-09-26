@@ -1,4 +1,5 @@
 import React from "react";
+import "./style/vipClass.less"
 
 export default class VipClass extends React.Component{
     constructor(props){

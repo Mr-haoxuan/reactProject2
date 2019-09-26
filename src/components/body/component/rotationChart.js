@@ -1,4 +1,5 @@
 import React from "react";
+import "./style/rotationChart.less"
 
 export default class RotationChart extends  React.Component{
     constructor(props){

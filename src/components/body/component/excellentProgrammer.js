@@ -1,4 +1,5 @@
 import React from "react";
+import "./style/excellentProgrammer.less"
 
 export default class ExcellentProgrammer extends React.Component{
     constructor(props){

@@ -1,4 +1,5 @@
 import React from "react";
+import "./style/devilProgrammer.less"
 
 export default class DevilProgrammer extends React.Component {
     constructor(props) {

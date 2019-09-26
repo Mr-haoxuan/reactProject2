@@ -1,4 +1,6 @@
 import React from "react";
+import "./style/onlineClass.less"
+
 
 export default class OnlineEmploymentClass extends React.Component{
     constructor(props){

@@ -1,4 +1,5 @@
 import React from "react";
+import "./style/studentStory.less"
 
 export default class StudentStory extends React.Component{
     constructor(props){

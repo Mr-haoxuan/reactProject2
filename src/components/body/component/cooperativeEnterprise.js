@@ -1,4 +1,5 @@
 import React from "react";
+import "./style/cooperativeEnterprise.less"
 
 export default class CooperativeEnterprise extends  React.Component{
     constructor(props){

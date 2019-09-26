@@ -1,4 +1,5 @@
 import React from "react";
+import "./style/professionalCourses.less"
 
 export default class ProfessionalCourses extends React.Component {
     constructor(props) {
