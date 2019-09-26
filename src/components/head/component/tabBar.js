@@ -7,7 +7,7 @@ export default class TabBar extends React.Component {
         this.state = {}
     }
 
-    showIndexlink(){
+    showIndexlink() {
         return (<li key="inedxlink">
             <a href="http://www.jikexueyuan.com/" className="indexlink">首页</a>
         </li>)
@@ -18,25 +18,24 @@ export default class TabBar extends React.Component {
         return tabBtns.map((tabItem, index) => {
             return (
                 <li key={index}>
-                    <i className="green">{tabItem}</i>
+                    <i className="green">{tabItem.btnname}</i>
                     <i className="arrow"></i>
                     <div className="spinner">
-                    {index == 0 ? this.showSpinner1() : this.showSpinner2()}
+                        {index == 0 ? this.showSpinner1(tabItem.spinner) : this.showSpinner2(tabItem.spinner)}
                     </div>
                 </li>
             )
         })
     }
 
-    showSpinner1() {
-        const { spinner1 = [] } = this.props;
-        return spinner1.map((item, i) => {
+    showSpinner1(content) {
+        return content.map((item, i) => {
             return (
                 <div key={i}>
-                    <div  className="spinnerTitleDiv">
+                    <div className="spinnerTitleDiv">
                         <i className="spinnerTitle">{item.title}</i>
                     </div>
-                    <div  className="spinnerLinkDiv">
+                    <div className="spinnerLinkDiv">
                         {item.links.map((linkItem, i) => {
                             return (
                                 <a key={i} href={linkItem}>
@@ -51,8 +50,16 @@ export default class TabBar extends React.Component {
         })
     }
 
-    showSpinner2() {
-
+    showSpinner2(content) {
+        return content.map((item, i) => {
+            return (
+                <a key={i} className="spinnerLink" href={item.link}>
+                    <img/>
+                    {item.linkname}
+                    <i>{item.count}</i>
+                </a>
+            )
+        })
     }
 
     render() {

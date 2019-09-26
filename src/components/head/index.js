@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import TabBar from "./component/tabBar";
 import logo from "../../images/title/logo.png"
 import "./index.less"
+import TabBtns from "./headConfig"
 
 export default class NavBar extends React.Component {
     constructor(props) {
@@ -13,41 +14,50 @@ export default class NavBar extends React.Component {
     Logo() {
         return (
             <a href="wwww.jikexueyuan.com" className="logo">
-                <img src={logo} style={{ height: 40+"px", width: 109+"px" }} />
+                <img src={logo} style={{ height: 40 + "px", width: 109 + "px" }} />
             </a>
         )
     }
 
+    RightTab() {
+        return (
+            <>
+                <div className="rightTab">
+                    <div className="tab1">
+                        <i className="arrow"></i>
+                        <div className="tab1-spinner">
+                            <div className="div1">
+                                <a className="a-1" href="http://passport.jikexueyuan.com/sso/reg_phone">注册</a> |
+                            <a className="a-2" href="http://passport.jikexueyuan.com/sso/login">登录</a>
+                            </div>
+                            <div>
+                                <a className="a-3" href="http://passport.jikexueyuan.com/sso/login">
+                                    <i></i> 学习中心
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="tab2">
+                    <i className="jiantou"></i>
+                    <img src="./title/heade-rwm.png" />
+                </div>
+                <div className="tab3"></div>
+            </>
+        )
+
+
+    }
+
+
     render() {
-        let tabBtns = ["职业学院", "会员课程", "极客社区"];
-        let spinner1 = [
-            {
-                title: "前端学院",
-                links: ["http://www.jikexueyuan.com/zhiye/web", "http://www.jikexueyuan.com/zhiye/wechatapp"],
-                linknames: ["Web 前端工程师", "微信小程序工程师"]
-            },
-            {
-                title: "后端学院",
-                links: ["http://www.jikexueyuan.com/zhiye/python", "http://www.jikexueyuan.com/zhiye/go"],
-                linknames: ["Python Web工程师", "Go语言工程师"]
-            },
-            {
-                title: "后端学院",
-                links: ["http://www.jikexueyuan.com/zhiye/android", "http://www.jikexueyuan.com/zhiye/ios"],
-                linknames: ["Android工程师", "ios工程师"]
-            }
-        ];
-        let spinner2 = [
-            {
-                linkname:""
-            }
-        ]
         return (
             <div className="title">
                 {this.Logo()}
                 <div className="tab">
-                    <TabBar key="tabbar" tabBtns={tabBtns} spinner1={spinner1} />
+                    <TabBar key="tabbar" tabBtns={TabBtns.tabBtns} />
                 </div>
+                {/* {this.RightTab()} */}
             </div>
         )
     }
