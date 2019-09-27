@@ -80,5 +80,23 @@ module.exports = {
                 },
             ]
         }
+    ],
+    rightSpinner:[
+        {
+            link:"http://passport.jikexueyuan.com/sso/login",
+            linkname:"学习中心"
+        },
+        {
+            link:"http://passport.jikexueyuan.com/sso/login",
+            linkname:"个人主页"
+        },
+        {
+            link:"http://passport.jikexueyuan.com/sso/login",
+            linkname:"消息通知"
+        },
+        {
+            link:"http://passport.jikexueyuan.com/sso/login",
+            linkname:"账号设置"
+        }
     ]
 }

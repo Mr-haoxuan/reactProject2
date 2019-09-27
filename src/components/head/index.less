@@ -36,28 +36,159 @@
     float: right;
 }
 
-// .title .xiaoanniu .anniu1 {
-//     background: url(./title/login-icon.png) 0 0 no-repeat;
-//     background-size: 17px 17px;
-// }
+.title .rightTab .tab1 {
+    background: url(../../images/title/login-icon.png) 0 0 no-repeat;
+    background-size: 17px 17px;
+}
 
-// .title .xiaoanniu .anniu2 {
-//     background: url(./title/app-icon.png)0 0 no-repeat;
-//     background-size: 17px 17px;
-//     overflow: visible;
-// }
+.title .rightTab .tab2 {
+    background: url(../../images/title/app-icon.png)0 0 no-repeat;
+    background-size: 17px 17px;
+    overflow: visible;
+}
 
-// .title .xiaoanniu .anniu2:hover {
-//     background: url(./title/app-icon2.png)0 0 no-repeat;
-//     background-size: 17px 17px;
-// }
+.title .rightTab .tab2:hover {
+    background: url(../../images/title/app-icon2.png)0 0 no-repeat;
+    background-size: 17px 17px;
+}
 
-// .title .xiaoanniu .anniu3 {
-//     background: url(./title/search-icon.png)0 0 no-repeat;
-//     background-size: 17px 17px;
-// }
+.title .rightTab .tab3 {
+    background: url(../../images/title/search-icon.png)0 0 no-repeat;
+    background-size: 17px 17px;
+}
 
-// .title .xiaoanniu .anniu3:hover {
-//     background: url(./title/search-icon2.png)0 0 no-repeat;
-//     background-size: 17px 17px;
-// }
+.title .rightTab .tab3:hover {
+    background: url(../../images/title/search-icon2.png)0 0 no-repeat;
+    background-size: 17px 17px;
+}
+
+.title .rightTab .arrow {
+    width: 21px;
+    height: 21px;
+    display: none;
+    border-left: 1px solid #ececec;
+    border-top: 1px solid #ececec;
+    position: relative;
+    -webkit-transform: rotate(45deg);
+    top: 30px;
+    left: 0px;
+}
+
+.rightTab .tab1:hover .arrow {
+    display: inline-block;
+}
+
+.rightTab .tab2:hover .arrow {
+    display: inline-block;
+}
+
+.title .rightTab img {
+    width: 120px;
+    height: 157px;
+    display: none;
+    z-index: 2;
+    position: relative;
+    left: -50px;
+    top: 11px;
+    cursor: pointer;
+}
+
+.rightTab .tab2:hover img {
+    display: block;
+}
+
+.title .rightTab .tab1-spinner {
+    width: 120px;
+    height: 196px;
+    position: relative;
+    display: none;
+    margin: 0;
+    top: 11px;
+    right: -10px;
+    z-index: 2;
+    background-color: #ffffff;
+    font-size: 12px;
+}
+
+.rightTab .tab1:hover .tab1-spinner {
+    display: block;
+}
+
+.title .tab1-spinner div {
+    width: 120px;
+    height: 35px;
+    margin: 0;
+}
+
+.title .tab1-spinner .div1 {
+    margin-top: 10px;
+}
+
+.title .tab1-spinner div:hover {
+    background-color: #f5f5f5;
+}
+
+.title .tab1-spinner .a-1,
+.a-2 {
+    width: 49.5px;
+    height: 35px;
+    line-height: 35px;
+    text-decoration: none;
+    color: #666666;
+    text-align: center;
+    display: inline-block;
+}
+
+.title .tab1-spinner .a-1 {
+    margin-left: 10px;
+}
+
+.title .tab1-spinner .a-3,
+.a-4,
+.a-5,
+.a-6 {
+    width: 110px;
+    height: 35px;
+    margin-left: 10px;
+    line-height: 35px;
+    text-decoration: none;
+    color: #666666;
+    display: inline-block;
+}
+
+.title .tab1-spinner a:hover {
+    color: #35b558;
+}
+
+.title .tab1-spinner i {
+    width: 12px;
+    height: 12px;
+    margin-right: 10px;
+    margin-top: 12px;
+    display: inline-block;
+    float: left;
+}
+
+.tab1-spinner .a-3 i {
+    background: url(../../images/title/allicon2.png) 0 0 no-repeat;
+    background-position: -16px -15px;
+    background-size: 64px 64px;
+}
+
+.tab1-spinner .a-4 i {
+    background: url(../../images/title/allicon2.png) 0 0 no-repeat;
+    background-position: -16px -30px;
+    background-size: 64px 64px;
+}
+
+.tab1-spinner .a-5 i {
+    background: url(../../images/title/allicon2.png) 0 0 no-repeat;
+    background-position: -45px -1px;
+    background-size: 64px 64px;
+}
+
+.tab1-spinner .a-6 i {
+    background: url(../../images/title/allicon2.png) 0 0 no-repeat;
+    background-position: -30px -1px;
+    background-size: 64px 64px;
+}

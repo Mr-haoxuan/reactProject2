@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import TabBar from "./component/tabBar";
 import logo from "../../images/title/logo.png"
+import headerwm from "../../images/title/headerwm.png"
 import "./index.less"
 import TabBtns from "./headConfig"
 
@@ -19,6 +20,17 @@ export default class NavBar extends React.Component {
         )
     }
 
+    showTab1Spinner() {
+        const { rightSpinner = [] } = TabBtns;
+        return rightSpinner.map((item, i) => {
+            return (
+                <a key={i} className={"a-"+(i+3)} href={item.link}>
+                    <i></i> {item.linkname}
+                </a>
+            )
+        })
+    }
+
     RightTab() {
         return (
             <>
@@ -31,18 +43,16 @@ export default class NavBar extends React.Component {
                             <a className="a-2" href="http://passport.jikexueyuan.com/sso/login">登录</a>
                             </div>
                             <div>
-                                <a className="a-3" href="http://passport.jikexueyuan.com/sso/login">
-                                    <i></i> 学习中心
-                                </a>
+                                {this.showTab1Spinner()}
                             </div>
                         </div>
                     </div>
+                    <div className="tab2">
+                        <i className="arrow"></i>
+                        <img src={headerwm} />
+                    </div>
+                    <div className="tab3"></div>
                 </div>
-                <div className="tab2">
-                    <i className="jiantou"></i>
-                    <img src="./title/heade-rwm.png" />
-                </div>
-                <div className="tab3"></div>
             </>
         )
 
@@ -57,7 +67,7 @@ export default class NavBar extends React.Component {
                 <div className="tab">
                     <TabBar key="tabbar" tabBtns={TabBtns.tabBtns} />
                 </div>
-                {/* {this.RightTab()} */}
+                {this.RightTab()}
             </div>
         )
     }
