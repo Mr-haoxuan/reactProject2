@@ -97,5 +97,31 @@ module.exports = {
             linkSubtitle:"点击测试>"
         }
 
+    ],
+    DevilProgrammer:[
+        {
+            link:"",
+            linkTitle:"魔鬼程序员，极客线下高端培训",
+            linkSubtitle:"<了解详情",
+            linkImg:"mogui1.jpg"
+        },
+        {
+            link:"",
+            linkTitle:"学习前导课，提升入学可能",
+            linkSubtitle:"<前导课入口",
+            linkImg:"mogui2.jpg"
+        },
+        {
+            link:"",
+            linkTitle:"全栈Web高级工程师，首期学费全免",
+            linkSubtitle:"了解详情>",
+            linkImg:"mogui2.jpg"
+        },
+        {
+            link:"",
+            linkTitle:"填写自荐信，抢占名额",
+            linkSubtitle:"报名入口>",
+            linkImg:"mogui2.jpg"
+        }  
     ]
 }
