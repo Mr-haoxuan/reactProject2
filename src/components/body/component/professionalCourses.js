@@ -1,7 +1,6 @@
 import React from "react";
 import "./style/professionalCourses.less"
 import Content from "../bodyConfig"
-import img from "../../../images/professionalCourses/js.jpg"
 
 export default class ProfessionalCourses extends React.Component {
     constructor(props) {

@@ -54,5 +54,48 @@ module.exports = {
             originalPrice:"¥129.00",
             studentCount:"34人学习",
         }
+    ],
+    excellentProgrammer:[
+        {
+            link:"",
+            linkTitle:["12天脱产学习，冲刺年薪二十万"],
+            linkSubtitle:""
+        },
+        {
+            link:"",
+            linkTitle:"",
+            linkSubtitle:""
+        },
+        {
+            link:"",
+            linkTitle:["20人小班教学，全力打造前端精英"],
+            linkSubtitle:"了解更多>"
+        },
+        {
+            link:"",
+            linkTitle:"",
+            linkSubtitle:""
+        },
+        {
+            link:"",
+            linkTitle:["0基础通道，让未来充满光明"],
+            linkSubtitle:"点击咨询>"
+        },
+        {
+            link:"",
+            linkTitle:["测试专业度，未来薪资先知道"],
+            linkSubtitle:"点击测试>"
+        },
+        {
+            link:"",
+            linkTitle:"",
+            linkSubtitle:""
+        },
+        {
+            link:"",
+            linkTitle:["100%保就业, 月薪8000起"],
+            linkSubtitle:"点击测试>"
+        }
+
     ]
 }
