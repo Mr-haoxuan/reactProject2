@@ -123,5 +123,106 @@ module.exports = {
             linkSubtitle:"报名入口>",
             linkImg:"mogui2.jpg"
         }  
+    ],
+    careerColleges:[
+        {
+            link:"",
+            linkTitle:"Web 前端工程师",
+            linkImg:"zhiye1.jpg"
+        },
+        {
+            link:"",
+            linkTitle:"Python Web 工程师",
+            linkImg:"zhiye2.jpg"
+        },
+        {
+            link:"",
+            linkTitle:"Go 语言工程师",
+            linkImg:"zhiye3.jpg"
+        },
+        {
+            link:"",
+            linkTitle:"ios 工程师",
+            linkImg:"zhiye4.jpg" 
+        },
+        {
+            link:"",
+            linkTitle:"微信小程序工程师",
+            linkImg:"zhiye5.jpg" 
+        }
+    ],
+    vipClass:[
+        {
+            link:"",
+            linkImg:"1.png",
+            linkTitle:"Android",
+            linkSubtitle:"90门课程"
+        },
+        {
+            link:"",
+            linkImg:"2.png",
+            linkTitle:"ios",
+            linkSubtitle:"51门课程"
+        },
+        {
+            link:"",
+            linkImg:"3.png",
+            linkTitle:"Swift语言",
+            linkSubtitle:"11门课程"
+        },
+        {
+            link:"",
+            linkImg:"4.png",
+            linkTitle:"HTML5开发",
+            linkSubtitle:"116门课程"
+        },
+        {
+            link:"",
+            linkImg:"5.png",
+            linkTitle:"JavaScript",
+            linkSubtitle:"90门课程"
+        },
+        {
+            link:"",
+            linkImg:"6.png",
+            linkTitle:"Node.js",
+            linkSubtitle:"90门课程"
+        },
+        {
+            link:"",
+            linkImg:"7.png",
+            linkTitle:"C语言",
+            linkSubtitle:"17门课程"
+        },
+        {
+            link:"",
+            linkImg:"8.png",
+            linkTitle:"Java语言",
+            linkSubtitle:"17门课程"
+        },
+        {
+            link:"",
+            linkImg:"9.png",
+            linkTitle:"PHP语言",
+            linkSubtitle:"23门课程"
+        },
+        {
+            link:"",
+            linkImg:"10.png",
+            linkTitle:"JavaWeb",
+            linkSubtitle:"64门课程"
+        },
+        {
+            link:"",
+            linkImg:"11.png",
+            linkTitle:"Python",
+            linkSubtitle:"38门课程"
+        },
+        {
+            link:"",
+            linkImg:"12.png",
+            linkTitle:"Cocos2d-x游戏开发",
+            linkSubtitle:"89门课程"
+        }
     ]
 }
