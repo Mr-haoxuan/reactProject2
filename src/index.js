@@ -13,9 +13,9 @@ class Index extends React.Component {
     render() {
         return (
             <>
-                <NavBar />
+                < NavBar />
                 < Body />
-                < Footer/>
+                < Footer />
             </>
         )
     }
