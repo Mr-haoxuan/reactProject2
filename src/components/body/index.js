@@ -8,6 +8,7 @@ import VipClass from "./component/vipClass";
 import StudentStory from "./component/studentStory"
 import CooperativeEnterprise from "./component/cooperativeEnterprise";
 import RotationChart from "./component/rotationChart";
+import Login from "./component/login";
 
 export default class Body extends React.Component {
     constructor(props) {
@@ -17,6 +18,7 @@ export default class Body extends React.Component {
     render() {
         return <div className="body">
             <RotationChart/>
+            <Login/>
             <OnlineEmploymentClass />
             <ProfessionalCourses />
             <ExcellentProgrammer />

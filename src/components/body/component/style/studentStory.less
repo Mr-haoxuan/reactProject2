@@ -2,5 +2,205 @@
     width: 1000px;
     height: 310px;
     margin: 40px auto 0;
-    background: #f70404
+}
+
+.studentStory h2 {
+    width: 200px;
+    height: 18px;
+    line-height: 18px;
+    font-size: 18px;
+    color: #555555;
+    margin-bottom: 22px;
+    font-weight: 400;
+}
+
+.studentStory ul,
+ol,
+li,
+div {
+	margin: 0;
+	padding: 0;
+}
+
+.studentStory  ul,
+ol {
+	list-style: none;
+}
+
+.ft-carousel {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.ft-carousel .carousel-inner {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+}
+
+.ft-carousel .carousel-inner .carousel-item {
+	float: left;
+	height: 100%;
+}
+
+// .ft-carousel .carousel-item img {
+// 	width: 100%;
+// }
+
+.ft-carousel .carousel-indicators {
+	position: absolute;
+	left: 0;
+	bottom: 10px;
+	width: 100%;
+	text-align: center;
+	font-size: 0;
+}
+
+.ft-carousel .carousel-indicators span {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	background-color: #fff;
+	margin: 0 4px;
+	// border-radius: 50%;
+	cursor: pointer;
+}
+
+.ft-carousel .carousel-indicators span.active {
+	background-color: #de3a3a;
+}
+
+.ft-carousel .carousel-btn {
+	position: absolute;
+	top: 50%;
+	width: 50px;
+	height: 45px;
+	margin-top: -25px;
+	cursor: pointer;
+}
+
+.ft-carousel .carousel-prev-btn {
+	left: 0;
+	background: url(../../../../images/studentStory/prev.png) no-repeat;
+}
+
+.ft-carousel .carousel-next-btn {
+	right: 0;
+	background: url(../../../../images/studentStory/next.png) no-repeat;
+}
+
+.studentStory a {
+    width: 320px;
+    height: 200px;
+    float: left;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.studentStory a:nth-of-type(3) {
+    margin-right: 0;
+}
+
+.studentStory a:hover p {
+    box-shadow: 0 2px 6px #ccc;
+    -webkit-transition: box-shadow;
+}
+
+.studentStory a p {
+    width: 320px;
+    height: 121px;
+    font-size: 12px;
+    display: inline-block;
+    color: #555;
+    line-height: 20px;
+    text-align: left;
+    position: relative;
+    padding: 20px 25px;
+    border: 1px solid #e9e9e9;
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+
+.studentStory .top-div:before {
+    content: '';
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 12px solid #e9e9e9;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    position: absolute;
+    left: 46px;
+    bottom: 68px;
+}
+
+.studentStory .top-div:after {
+    content: '';
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 10px solid #fff;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    position: absolute;
+    left: 47px;
+    bottom: 70px;
+}
+
+.studentStory a p::before {
+    content: '';
+    display: inline-block;
+    width: 14px;
+    height: 10px;
+    background: url(../../../../images/studentStory/befor.png) 0 0 no-repeat;
+    background-size: 14px 10px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.studentStory a p::after {
+    content: '';
+    display: inline-block;
+    width: 14px;
+    height: 10px;
+    background: url(../../../../images/studentStory/befor.png) 0 0 no-repeat;
+    background-size: 14px 10px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    -webkit-transform: rotate(180deg);
+}
+
+.studentStory a img {
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+    margin-right: 15px;
+    margin-bottom: 0;
+    border-radius: 50%;
+    display: inline-block;
+    float: left;
+}
+
+.studentStory a i {
+    width: 225px;
+    height: 24px;
+    display: block;
+    line-height: 24px;
+    font-size: 12px;
+    font-style: normal;
+    text-align: left;
+    float: right;
+    color: #999;
+}
+
+.studentStory a i:nth-of-type(1) {
+    color: #555;
+    margin-top: 30px;
 }

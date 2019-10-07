@@ -18,10 +18,10 @@ module.exports =  {
                 test:/\.js$/,
                 use:'babel-loader'
             },
-            // {
-            //     test:/\.css$/,
-            //     use:[MiniCssExtractPlugin.loader,'css-loader']
-            // },
+            {
+                test:/\.css$/,
+                use:[MiniCssExtractPlugin.loader,'css-loader']
+            },
             {
                 test:/\.less$/,
                 use:[
